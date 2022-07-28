@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+body {
+   font-family: 'Roboto', sans-serif;
+   background: #F5F5F5;
+}
+[class*="__container"] {
+   margin: 0 auto;
+   max-width: 1020px;
+   box-sizing: content-box;
+   padding: 15px;
+}
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   color: #4B4B4B;
+}
+.main {
+   flex: 1 1 auto;
+}
+.promise {
+}
+.promise__container {
+}
+.promise__header {
+   margin: 86.53px 0 68px 0;
+}
+.title {
+}
+.title *:not(:last-child) {
+   margin: 0 0 33px 0;
+}
+.title__label {
+   background: url(../img/our-promice/OverlineMark.svg) 0 -2px no-repeat;
+   padding-left: 33px;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 2;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #5D62B5;
+   background: ;
+}
+.title__item {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 1.17;
+   color: #000000;
+   max-width: 411px;
+}
+
+
+
+.promise__items {
+   display: flex;
+   margin: 0 -12px;
+   flex-wrap: wrap;
+   row-gap: 24px;
+}
+.promise__item {
+   flex: 1 1 33.333%;
+   padding: 0 12px;
+   column-gap: 23px;
+}
+.item-promise {
+   display: flex;
+   align-items: flex-start;
+}
+.item-promise__icon {
+   flex: 0 0 63px;
+}
+.item-promise__body {
+}
+.item-promise__title {
+
+}
+.item-title {
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 1.37;
+   color: #F2726F;
+}
+.item-promise__title:not(:last-child) {
+   margin: 0 0 20px 0;
+}
+.item-promise__text {
+
+}
+.item-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.15px;
+}
+.services {
+   padding: 110px 0 113px 0;
+}
+.services__container {
+   display: flex;
+   flex-direction: column;
+}
+.services__header {
+   margin: 0 0 78px 0;
+}
+.services__items {
+   display: flex;
+   row-gap: 24px;
+   flex-wrap: wrap;
+   margin: 0 -12px;
+}
+.services__item {
+   flex: 1 1 33.333%;
+   padding: 0 12px;
+}
+.services__items:not(:last-child) {
+   margin: 0 0 66px 0;
+}
+.item-services {
+   background: #FFFFFF;
+   border-radius: 20px; 
+   padding: 50px 44px 50px 43px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   min-width: 280px;
+   height: 100%;
+}
+.item-services__icon {
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   flex: 0 0 63px;
+   width: 63px;
+}
+.item-services__icon img {
+   /*max-width: 100%;*/
+}
+.item-services__icon:not(:last-child) {
+   margin: 0 0 33px 0;
+}
+.item-services__title {
+}
+.item-services__title:not(:last-child) {
+   margin: 0 0 20px 0;
+}
+.item-services__text {
+
+}
+
+.services__button {
+   align-self: center;
+   background: #F2726F;
+   border-radius: 8px;
+   letter-spacing: 0.15px;
+   text-transform: uppercase;
+   text-align: center;
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 2;
+   padding: 11px 21px;
+   /*margin: 66px 0 0 0;*/
+}
+
+
+
+.impact {
+   padding: 20px 0 212px 0;
+   background: #29C3BE;
+   position: relative;
+   /*color: #FFFFFF;*/
+}
+.impact:before {
+   content: "";
+   display: block;
+   height: 308px;
+   width: 695px;
+   position: absolute;
+   top: 0;
+   right: 50%;
+   transform: translate(88%, 0);
+   background: url(../img/impact/Blob\ 2.svg) 0 0 no-repeat;;
+}
+.impact__container{
+   position: relative;
+}
+.impact__body {
+   display: flex;
+   margin: 0 -15px;
+   align-items: flex-end;
+   margin: 0 0 79px 0;
+}
+.impact__img {
+   padding: 0 15px;
+   flex: 0 1 50%;
+   margin-top: -80px;
+}
+.impact__img img {
+   /*width: 527px;
+   height: 336px;*/
+   border-radius: 40px;
+   max-width: 100%;
+}
+.impact__header {
+   padding: 0 15px;
+   flex: 1 1 50%;
+}
+.title {
+}
+
+.impact__items {
+   margin: 0 -12px;
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 24px;
+}
+.impact__item {
+   display: flex;
+   flex: 1 1 25%;
+   padding: 0 12px;
+}
+.item-impact {
+   column-gap: 11px;
+}
+.item-impact__icon {
+}
+.item-impact__icon img {
+   width: 76px;
+}
+.item-impact__body {
+   max-width: 150px;
+}
+.item-impact__title {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 1.17;
+   color: #FFFFFF;   
+}
+.item-impact__title:not(:last-child) {
+   margin: 4px 0 3px 0;
+}
+.item-impact__text {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.15px;
+   color: #5D62B5;
+}
+.item-impact__text:not(:last-child) {
+   margin: 0 0 1px 0;
+}
